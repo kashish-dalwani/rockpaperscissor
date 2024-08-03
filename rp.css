@@ -1,0 +1,45 @@
+body{
+    font-family: cursive;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 3.5rem;
+}
+.choice{
+    margin-bottom: 30px;
+}
+.choice button{
+    font-size: 7.5rem;
+    margin: 0 10px;
+    border-radius: 250px;
+    background-color: lightblue;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.choice button :hover{
+    background-color: rgb(207, 237, 251);
+}
+#playerdisplay #compdisplay{
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+#result{
+    font-size: 4rem;
+    margin: 30 0px;
+}
+.score{
+    font-size: 2rem;
+}
+.greenText #playerscore{
+    color: green;
+}
+.redText #compscore{
+    color: red;
+}
+.tie{
+    color: blue;
+}
